@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ESNext", // transpile en JS moderne
+        "module": "ESNext", // compatible avec bundlers modernes
+        "lib": [
+            "DOM",
+            "ESNext"
+        ], // support navigateur + dernières features JS
+        "jsx": "react-jsx", // nouvelle syntaxe JSX (React 17+)
+        "declaration": true, // génère les fichiers .d.ts
+        "declarationDir": "./dist", // place les .d.ts dans dist/
+        "outDir": "./dist", // output de la compilation
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "strict": true, // active les vérifications strictes
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src",
+        "src/global.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "example",
+        "**/*.test.tsx",
+        "**/*.spec.tsx"
+    ]
+}
