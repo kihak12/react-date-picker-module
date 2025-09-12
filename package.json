@@ -1,8 +1,8 @@
 {
   "name": "date-picker-module-kihak12",
   "version": "1.0.2",
-  "main": "./dist/date-picker-react.umd.cjs",
-  "module": "./dist/date-picker-react.js",
+  "main": "./dist/date-picker-react.umd.js",
+  "module": "./dist/date-picker-react.mjs",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
