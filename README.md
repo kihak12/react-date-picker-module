@@ -10,7 +10,8 @@ A lightweight, dependency‑free React date picker used in HRnet. It supports:
 This component is part of the HRnet app. Import and use it directly in your React codebase.
 
 ```tsx
-import { DatePickerComponent } from "./components/date-picker-component/DatePickerComponent";
+import { DatePickerComponent } from "date-picker-module-kihak12";
+import 'date-picker-module-kihak12/dist/date-picker-react.css';
 ```
 
 ## Basic Usage
