@@ -7,7 +7,9 @@ A lightweight, dependency‑free React date picker used in HRnet. It supports:
 - Keyboard- and mouse-friendly interactions
 
 ## Installation
-This component is part of the HRnet app. Import and use it directly in your React codebase.
+```tsx
+npm i date-picker-module-kihak12
+```
 
 ```tsx
 import { DatePickerComponent } from "date-picker-module-kihak12";
